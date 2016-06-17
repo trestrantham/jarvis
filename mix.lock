@@ -4,7 +4,7 @@
   "gun": {:hex, :gun, "1.0.0-pre.1", "28514327a7572234633e127c1c14c5d91991bc26ec16d3707f05962a31f0c1b5", [:rebar, :make], [{:ranch, "1.1.0", [hex: :ranch, optional: false]}, {:cowlib, "1.3.0", [hex: :cowlib, optional: false]}]},
   "hackney": {:hex, :hackney, "1.6.0", "8d1e9440c9edf23bf5e5e2fe0c71de03eb265103b72901337394c840eec679ac", [:rebar3], [{:ssl_verify_fun, "1.1.0", [hex: :ssl_verify_fun, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:metrics, "1.0.1", [hex: :metrics, optional: false]}, {:idna, "1.2.0", [hex: :idna, optional: false]}, {:certifi, "0.4.0", [hex: :certifi, optional: false]}]},
   "hedwig": {:hex, :hedwig, "1.0.0-rc.4", "7c134a19bec8508f8dfd308c69d37426e7bcb48f41cc0cb9366ad7514bb7fd40", [:mix], [{:gproc, "~> 0.5", [hex: :gproc, optional: false]}]},
-  "hedwig_mopidy": {:git, "git@github.com:trestrantham/hedwig_mopidy.git", "c29e4ef430a25010b82a1b78c6764890949cf2b0", []},
+  "hedwig_mopidy": {:git, "https://github.com/trestrantham/hedwig_mopidy.git", "c29e4ef430a25010b82a1b78c6764890949cf2b0", []},
   "hedwig_slack": {:hex, :hedwig_slack, "0.1.0", "523a3b5130e86e9135f4b3ebdc4c1ee4120f5ba4f9d0fb4b3b7aee7d58f0da63", [:mix], [{:poison, "~> 2.0", [hex: :poison, optional: false]}, {:hedwig, "~> 1.0.0-rc.4", [hex: :hedwig, optional: false]}, {:gun, "1.0.0-pre.1", [hex: :gun, optional: false]}]},
   "httpoison": {:hex, :httpoison, "0.8.3", "b675a3fdc839a0b8d7a285c6b3747d6d596ae70b6ccb762233a990d7289ccae4", [:mix], [{:hackney, "~> 1.6.0", [hex: :hackney, optional: false]}]},
   "httpotion": {:hex, :httpotion, "3.0.0", "4ce0af28f4254bdd0457d0fe065a83787751e0a5b5f5d27030948253be38df5c", [:mix], [{:ibrowse, "~> 4.2", [hex: :ibrowse, optional: false]}]},
@@ -13,7 +13,7 @@
   "jsx": {:hex, :jsx, "2.8.0", "749bec6d205c694ae1786d62cea6cc45a390437e24835fd16d12d74f07097727", [:mix, :rebar], []},
   "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [:rebar3], []},
   "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], []},
-  "mopidy": {:git, "git@github.com:trestrantham/mopidy.git", "b5f1d5f36d6ec497d843c7cd9162260627480cf3", []},
+  "mopidy": {:git, "https://github.com/trestrantham/mopidy.git", "b5f1d5f36d6ec497d843c7cd9162260627480cf3", []},
   "poison": {:hex, :poison, "2.1.0", "f583218ced822675e484648fa26c933d621373f01c6c76bd00005d7bd4b82e27", [:mix], []},
   "ranch": {:hex, :ranch, "1.1.0", "f7ed6d97db8c2a27cca85cacbd543558001fc5a355e93a7bff1e9a9065a8545b", [:make], []},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.0", "edee20847c42e379bf91261db474ffbe373f8acb56e9079acb6038d4e0bf414f", [:rebar, :make], []}}

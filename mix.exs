@@ -26,8 +26,8 @@ defmodule Jarvis.Mixfile do
   defp deps do
     [
       {:hedwig_slack, "~> 0.1"},
-      {:hedwig_mopidy, git: "git@github.com:trestrantham/hedwig_mopidy.git"},
-      {:mopidy, git: "git@github.com:trestrantham/mopidy.git"},
+      {:hedwig_mopidy, github: "trestrantham/hedwig_mopidy", override: true},
+      {:mopidy, github: "trestrantham/mopidy", override: true},
       {:poison, "~> 2.1"}
     ]
   end
