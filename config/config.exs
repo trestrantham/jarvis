@@ -1,5 +1,3 @@
-# This file is responsible for configuring your application
-# and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
 config :jarvis, Jarvis.Robot,
@@ -11,5 +9,9 @@ config :jarvis, Jarvis.Robot,
   responders: [
     {Hedwig.Responders.Help, []},
     {Hedwig.Responders.GreatSuccess, []},
-    {Hedwig.Responders.ShipIt, []}
+    {Hedwig.Responders.ShipIt, []},
+    {HedwigMopidy.Responders.Playback, []}
   ]
+
+config :mopidy,
+  api_url: System.get_env("MOPIDY_API_URL")
